@@ -1,9 +1,8 @@
+
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
-
+/*
 ul {
   list-style: none;
 }
@@ -63,7 +62,7 @@ a {
 .tabs-panel p + div {
   margin-top: 15px;
 }
-
+*/
 body {
   background: linear-gradient(to right, #6814cd 0%, #3163f3 100%);
   font: normal 18px/1.5 Helvetica, sans-serif;
@@ -80,8 +79,18 @@ body {
   border-radius: 25px 25px 25px 25px;
 }
 
-header {
+#principal_header {
+  text-align: center;
   margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 60px;
+  color: #8F222E;
+  text-shadow: 2px 2px 3px black;
+  height: 50px;}
+
+header {
+  margin-top: 10px;
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 40px;
