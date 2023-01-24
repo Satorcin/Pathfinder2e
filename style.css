@@ -77,6 +77,9 @@ body {
   position: relative;
   padding: 30px;
   border-radius: 25px 25px 25px 25px;
+  border-color: #AE3133;
+  border-width: 10px 10px 0px 10px;
+  border-style: solid;
 }
 
 #principal_header {
@@ -101,7 +104,7 @@ header {
 footer {
   width: 1200px;
   position: absolute;
-  left:0px;
+  left:-10px;
   bottom:0px;
   text-align: center;
   padding: 3px;
