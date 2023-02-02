@@ -17,33 +17,110 @@
 		<script type="text/javascript" src="myscripts.js"></script>
 	</head>
 		<body>
+
 			<p id="principal_header">Pathfinder Second Edition</p>
-			  <!--
-				<div class="tabs-container">
-				  <ul class="tabs">
-				    <li class="active">
-				      <a href="">Part 1</a>
-				    </li>
-				    <li>
-				      <a href="">Part 2</a>
-				    </li>
-				    <li>
-				      <a href="">Part 3</a>
-				    </li>
-				  </ul>
-				  <div class="tabs-content">
-				    <div class="tabs-panel active" data-index="0">
-				      Parte 1 Parte 1 Parte 1 Parte 1 Parte 1 Parte 1 Parte 1 Parte 1 Parte 1 Parte 1 Parte 1
-				    </div>
-				    <div class="tabs-panel" data-index="1">
-				      Parte 2 Parte 2 Parte 2 Parte 2 Parte 2 Parte 2 Parte 2 Parte 2 Parte 2 Parte 2 Parte 2
-				    </div>
-				    <div class="tabs-panel" data-index="2">
-				      Parte 3 Parte 3 Parte 3 Parte 3 Parte 3 Parte 3 Parte 3 Parte 3 Parte 3 Parte 3 Parte 3
-				    </div>
-				  </div>
+
+				<div class="tab">
+				  <button class="tablinks" onclick="tab(event, 'Part1')">Level DC</button>
+				  <button class="tablinks" onclick="tab(event, 'Part2')">Earn Income</button>
+				  <button class="tablinks" onclick="tab(event, 'Part3')">Material Statistics</button>
 				</div>
-				-->
+
+<!-- Level DC -->
+
+				<div id="Part1" class="tabcontent">
+					<div style="float: left; margin-left:200px;margin-top:50px;">
+						<table class="tablacentral">
+							<tr><th class="td1">Level</th><th class="td1">DC</th></tr>
+							<tr><td class="td2">0</td><td class="td1">14</td></tr>
+							<tr><td class="td2">1</td><td class="td1">15</td></tr>
+							<tr><td class="td2">2</td><td class="td1">16</td></tr>
+							<tr><td class="td2">3</td><td class="td1">18</td></tr>
+							<tr><td class="td2">4</td><td class="td1">19</td></tr>
+							<tr><td class="td2">5</td><td class="td1">20</td></tr>
+							<tr><td class="td2">6</td><td class="td1">22</td></tr>
+						</table>
+					</div>
+					<div style="float: left;margin-top:50px;">
+						<table class="tablacentral">
+							<tr><th class="td1">Level</th><th class="td1">DC</th></tr>
+							<tr><td class="td2">7</td><td class="td1">23</td></tr>
+							<tr><td class="td2">8</td><td class="td1">24</td></tr>
+							<tr><td class="td2">9</td><td class="td1">26</td></tr>
+							<tr><td class="td2">10</td><td class="td1">27</td></tr>
+							<tr><td class="td2">11</td><td class="td1">28</td></tr>
+							<tr><td class="td2">12</td><td class="td1">30</td></tr>
+							<tr><td class="td2">13</td><td class="td1">31</td></tr>
+						</table>
+					</div>
+					<div style="float: left;margin-top:50px;">
+						<table class="tablacentral">
+							<tr><th class="td1">Level</th><th class="td1">DC</th></tr>
+							<tr><td class="td2">14</td><td class="td1">32</td></tr>
+							<tr><td class="td2">15</td><td class="td1">34</td></tr>
+							<tr><td class="td2">16</td><td class="td1">35</td></tr>
+							<tr><td class="td2">17</td><td class="td1">36</td></tr>
+							<tr><td class="td2">18</td><td class="td1">38</td></tr>
+							<tr><td class="td2">19</td><td class="td1">39</td></tr>
+							<tr><td class="td2">20</td><td class="td1">40</td></tr>
+						</table>
+					</div>
+					<div>
+						<table class="tablacentral">
+							<tr><th class="td1">Spell Level</th><th class="td1">DC</th></tr>
+							<tr><td class="td2">1st</td><td class="td1">15</td></tr>
+							<tr><td class="td2">2nd</td><td class="td1">18</td></tr>
+							<tr><td class="td2">3rd</td><td class="td1">20</td></tr>
+							<tr><td class="td2">4th</td><td class="td1">23</td></tr>
+							<tr><td class="td2">5th</td><td class="td1">26</td></tr>
+							<tr><td class="td2">6th</td><td class="td1">28</td></tr>
+							<tr><td class="td2">7th</td><td class="td1">31</td></tr>
+							<tr><td class="td2">8th</td><td class="td1">34</td></tr>
+							<tr><td class="td2">9th</td><td class="td1">36</td></tr>
+							<tr><td class="td2">10th</td><td class="td1">39</td></tr>
+						</table>
+					</div>
+				</div>
+
+<!-- Earn Income -->
+
+				<div id="Part2" class="tabcontent">
+				  <div>
+						<table class="tablacentral">
+							<tr><th class="td3">Task Level</th><th class="td3">DC</th><th class="td3">Failed</th><th class="td3">Trained</th><th class="td3">Expert</th><th class="td3">Master</th><th class="td3">Legendary</th></tr>
+							<tr><td class="td1">0</td><td class="td1">14</td><td class="td1">1 cp</td><td class="td1">5 cp</td><td class="td1">5 cp</td><td class="td1">5 cp</td><td class="td1">5 cp</td></tr>
+							<tr><td class="td2">1</td><td class="td2">15</td><td class="td2">2 cp</td><td class="td2">2 sp</td><td class="td2">2 sp</td><td class="td2">2 sp</td><td class="td2">2 sp</td></tr>
+							<tr><td class="td1">2</td><td class="td1">16</td><td class="td1">4 cp</td><td class="td1">3 sp</td><td class="td1">3 sp</td><td class="td1">3 sp</td><td class="td1">3 sp</td></tr>
+							<tr><td class="td2">3</td><td class="td2">18</td><td class="td2">8 cp</td><td class="td2">5 sp</td><td class="td2">5 sp</td><td class="td2">5 sp</td><td class="td2">5 sp</td></tr>
+							<tr><td class="td1">4</td><td class="td1">19</td><td class="td1">1 sp</td><td class="td1">7 sp</td><td class="td1">8 sp</td><td class="td1">8 sp</td><td class="td1">8 sp</td></tr>
+							<tr><td class="td2">5</td><td class="td2">20</td><td class="td2">2 sp</td><td class="td2">9 sp</td><td class="td2">1 gp</td><td class="td2">1 gp</td><td class="td2">1 gp</td></tr>
+							<tr><td class="td1">6</td><td class="td1">22</td><td class="td1">3 sp</td><td class="td1">1gp, 5 sp</td><td class="td1">2 gp</td><td class="td1">2 gp</td><td class="td1">2 gp</td></tr>
+							<tr><td class="td2">7</td><td class="td2">23</td><td class="td2">4 sp</td><td class="td2">2 gp</td><td class="td2">2 gp, 5 sp</td><td class="td2">2 gp, 5 sp</td><td class="td2">2 gp, 5 sp</td></tr>
+							<tr><td class="td1">8</td><td class="td1">24</td><td class="td1">5 sp</td><td class="td1">2 gp, 5sp</td><td class="td1">3 gp</td><td class="td1">3 gp</td><td class="td1">3 gp</td></tr>
+							<tr><td class="td2">9</td><td class="td2">26</td><td class="td2">6 sp</td><td class="td2">3 gp</td><td class="td2">4 gp</td><td class="td2">4 gp</td><td class="td2">4 gp</td></tr>
+							<tr><td class="td1">10</td><td class="td1">27</td><td class="td1">7 sp</td><td class="td1">4 gp</td><td class="td1">5 gp</td><td class="td1">6 gp</td><td class="td1">6 gp</td></tr>
+							<tr><td class="td2">11</td><td class="td2">28</td><td class="td2">8 sp</td><td class="td2">5 gp</td><td class="td2">6 gp</td><td class="td2">8 gp</td><td class="td2">8 gp</td></tr>
+							<tr><td class="td1">12</td><td class="td1">30</td><td class="td1">9 sp</td><td class="td1">6 gp</td><td class="td1">8 gp</td><td class="td1">10 gp</td><td class="td1">10 gp</td></tr>
+							<tr><td class="td2">13</td><td class="td2">31</td><td class="td2">1 gp</td><td class="td2">7 gp</td><td class="td2">10 gp</td><td class="td2">15 gp</td><td class="td2">15 gp</td></tr>
+							<tr><td class="td1">14</td><td class="td1">32</td><td class="td1">1gp, 5 sp</td><td class="td1">8 gp</td><td class="td1">15 gp</td><td class="td1">20 gp</td><td class="td1">20 gp</td></tr>
+							<tr><td class="td2">15</td><td class="td2">34</td><td class="td2">2 gp</td><td class="td2">10 gp</td><td class="td2">20 gp</td><td class="td2">28 gp</td><td class="td2">28 gp</td></tr>
+							<tr><td class="td1">16</td><td class="td1">35</td><td class="td1">2gp, 5 sp</td><td class="td1">13 gp</td><td class="td1">25 gp</td><td class="td1">36 gp</td><td class="td1">40 gp</td></tr>
+							<tr><td class="td2">17</td><td class="td2">36</td><td class="td2">3 gp</td><td class="td2">15 gp</td><td class="td2">30 gp</td><td class="td2">45 gp</td><td class="td2">55 gp</td></tr>
+							<tr><td class="td1">18</td><td class="td1">38</td><td class="td1">4 gp</td><td class="td1">20 gp</td><td class="td1">45 gp</td><td class="td1">70 gp</td><td class="td1">90 gp</td></tr>
+							<tr><td class="td2">19</td><td class="td2">39</td><td class="td2">6 gp</td><td class="td2">30 gp</td><td class="td2">60 gp</td><td class="td2">100 gp</td><td class="td2">130 gp</td></tr>
+							<tr><td class="td1">20</td><td class="td1">40</td><td class="td1">8 gp</td><td class="td1">40 gp</td><td class="td1">75 gp</td><td class="td1">150 gp</td><td class="td1">200 gp</td></tr>
+							<tr><td class="td2">20 (critical success)</td><td class="td2">--</td><td class="td2">--</td><td class="td2">50 gp</td><td class="td2">90 gp</td><td class="td2">175 gp</td><td class="td2">300 gp</td></tr>
+						</table>
+
+					</div>
+				</div>
+
+<!-- Material Statistics -->
+
+				<div id="Part3" class="tabcontent">
+				  
+				</div>
+
 				<div class="hojavertical">
 					<header>Titulo</header>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales ex a enim gravida, a gravida orci dictum. Donec eu lacus quam. Nam venenatis interdum urna, a volutpat quam sodales id. Sed massa urna, maximus ac auctor eu, bibendum nec odio. Aenean blandit scelerisque hendrerit. Integer interdum dolor non velit convallis, nec viverra turpis viverra. Nam nec euismod nisi. Mauris est urna, rhoncus nec dolor et, dapibus sagittis eros. Duis vel consectetur justo, et tincidunt ipsum. Sed molestie mollis felis, et bibendum leo lacinia eget. Donec in orci in tortor mattis suscipit. Nunc mollis in felis eget volutpat. Maecenas suscipit, lectus dignissim elementum semper, eros justo mollis orci, vel finibus ex tortor ac arcu. Donec finibus rhoncus sapien.
