@@ -8,14 +8,16 @@
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 5px solid #522E2C;
+  background-color: black;
   border-radius: 25px 25px 0px 0px;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: white;
+  background-color: #342C19;
+  color: orange;
+  font-weight: bold;
   float: left;
   border: none;
   outline: none;
