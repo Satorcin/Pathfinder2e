@@ -2,6 +2,51 @@
 * {
   box-sizing: border-box;
 }
+
+/* Style the tab */
+.tab {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 25px 25px 0px 0px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  margin-right: 30px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  max-width: 1200px;
+  margin: auto;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #E8DFC0;
+  border-radius: 0px 0px 25px 25px;
+}
+
 /*
 ul {
   list-style: none;
@@ -50,18 +95,6 @@ a {
   border-radius: 0 4px 4px 4px;
   background: white;
 }
-
-.tabs-panel {
-  display: none;
-}
-
-.tabs-panel.active {
-  display: block;
-}
-
-.tabs-panel p + div {
-  margin-top: 15px;
-}
 */
 body {
   background: linear-gradient(to right, #6814cd 0%, #3163f3 100%);
@@ -71,7 +104,7 @@ body {
 .hojavertical {
   max-width: 1200px;
   height: 1300px;
-  background: #E8DFC0;
+  background-color: #E8DFC0;
   margin: 50px auto;
   display: block;
   position: relative;
@@ -110,5 +143,34 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   font-weight: bold;
-  border-radius: 0px 0px 25px 25px
+  border-radius: 0px 0px 25px 25px;
+}
+
+.tablacentral {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 3px solid #8F222E;
+}
+
+.td1 {
+  text-align: center;
+  border: 2px solid #8F222E;
+  background-color: #C9AD6A;
+}
+
+.td2 {
+  text-align: center;
+  border: 2px solid #8F222E;
+  background-color: #E8DFC0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.td3 {
+  text-align: center;
+  border: 2px solid #8F222E;
+  background-color: #522E2C;
+  color: #CBC18F;
+  padding: 10px;
 }
