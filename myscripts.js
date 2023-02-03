@@ -10,4 +10,55 @@ function tab(evt, Part) {
   }
   document.getElementById(Part).style.display = "block";
   evt.currentTarget.className += " active";
-}
+};
+
+// Para ocultar todos los DIVS por clase
+function Hide1() {
+    var container = document.getElementsByClassName("hojavertical");
+    for(let i = 0; i<container.length;i++){
+      if (container[i].style.display === "none") {
+          container[i].style.display = "block";
+      } else {
+          container[i].style.display = "none";
+        }
+    }
+};
+
+// Para ocultar solo el ultimo div por ID
+function Hide2() {
+    var x = document.getElementById("hojavertical");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+};
+
+// Para ocultar todo
+
+function Hide() {
+    var container = document.getElementsByClassName("hojavertical");
+    for(let i = 0; i<container.length;i++){
+      if (container[i].style.display === "none") {
+          container[i].style.display = "block";
+      } else {
+          container[i].style.display = "none";
+        }
+    }
+
+    var container = document.getElementsByClassName("tab");
+    for(let i = 0; i<container.length;i++){
+      if (container[i].style.display === "none") {
+          container[i].style.display = "block";
+      } else {
+          container[i].style.display = "none";
+        }
+    }
+
+    var y = document.getElementById("principal_header");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
+};
