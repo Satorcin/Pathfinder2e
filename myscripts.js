@@ -55,6 +55,15 @@ function Hide() {
         }
     }
 
+    var container = document.getElementsByClassName("tabcontent");
+    for(let i = 0; i<container.length;i++){
+      if (container[i].style.display === "none") {
+          container[i].style.display = "block";
+      } else {
+          container[i].style.display = "none";
+        }
+    }
+
     var y = document.getElementById("principal_header");
     if (y.style.display === "none") {
         y.style.display = "block";
