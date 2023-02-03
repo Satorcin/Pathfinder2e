@@ -3,6 +3,15 @@
   box-sizing: border-box;
 }
 
+body {
+  /*background: linear-gradient(to right, #6814cd 0%, #3163f3 100%);*/
+  background-image: url(Pathfinderbackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font: normal 18px/1.5 Helvetica, sans-serif;
+}
+
 /* Style the tab */
 .tab {
   max-width: 1200px;
@@ -49,64 +58,6 @@
   border-radius: 0px 0px 25px 25px;
 }
 
-/*
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.tabs-container {
-  max-width: 1200px;
-  margin: 50px auto;
-  padding: 25px;
-}
-
-.tabs {
-  display: flex;
-}
-
-.tabs li:not(:last-child) {
-  margin-right: 7px;
-}
-
-.tabs li a {
-  display: block;
-  position: relative;
-  top: 4px;
-  padding: 10px 25px;
-  border-radius: 2px 2px 0 0;
-  background: white;
-  opacity: 0.7;
-  transition: all 0.1s ease-in-out;
-}
-
-.tabs li.active a,
-.tabs li a:hover {
-  opacity: 1;
-  top: 0;
-}
-
-.tabs-content {
-  position: relative;
-  z-index: 2;
-  padding: 25px;
-  border-radius: 0 4px 4px 4px;
-  background: white;
-}
-*/
-body {
-  /*background: linear-gradient(to right, #6814cd 0%, #3163f3 100%);*/
-  background-image: url(Pathfinderbackground.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  font: normal 18px/1.5 Helvetica, sans-serif;
-}
-
 .hojavertical {
   max-width: 1200px;
   height: 1300px;
@@ -119,6 +70,18 @@ body {
   border-color: #AE3133;
   border-width: 10px 10px 0px 10px;
   border-style: solid;
+  page-break-before: always;
+  counter-increment: page;
+}
+
+div.hojavertical:after {
+     content: " PAGE - " counter(page);
+     position: absolute;
+     bottom: 0px;
+     right: 15px;
+     padding: 2px 12px;
+     border-right: 2px solid #23b8e7;
+     font-size: 12px;
 }
 
 #principal_header {
@@ -139,18 +102,6 @@ header {
   color: #8F222E;
   text-shadow: 2px 2px 3px black;
   height: 50px;}
-
-footer {
-  width: 1200px;
-  position: absolute;
-  left:-10px;
-  bottom:0px;
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  font-weight: bold;
-  border-radius: 0px 0px 25px 25px;
-}
 
 .tablacentral {
   margin-left: auto;
