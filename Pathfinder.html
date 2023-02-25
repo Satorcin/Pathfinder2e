@@ -24,6 +24,8 @@
 				  <button class="tablinks" onclick="tab(event, 'Part1')">Level DC</button>
 				  <button class="tablinks" onclick="tab(event, 'Part2')">Earn Income</button>
 				  <button class="tablinks" onclick="tab(event, 'Part3')">Material Statistics</button>
+					<button class="tablinks" onclick="tab(event, 'Part4')">Action</button>
+					<button class="tablinks" onclick="tab(event, 'Part5')">Activities</button>
 					<button class="tablinks" onclick="tab(event, 'reset')" style="position: absolute;left: 1512px;border-radius: 0px 20px 0px 0px;"> &nbsp </button>
 				</div>
 
@@ -149,6 +151,129 @@
 						</table>
 					</div>
 				</div>
+
+<!-- Actions -->
+
+								<div id="Part4" class="tabcontent" style="max-width: 1600px;">
+									<div style="width: 50%; float:left">
+
+										<table class="tabla2">
+										 <tr><th class="td3" colspan="3">	FORCEFUL ACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	STRIKE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Attack	</td></table></td><td class="td1">	Attack with a weapon or unarmed attack.	</td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	ESCAPE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Attack	</td></table></td><td class="td2">	Attempt to get free when grabbed, restrained, or immobilized.<br> Uses unarmed attack modifier, Acrobatics, or Athletics.	</td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	FORCE OPEN	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Attack	</td></table></td><td class="td1"><span style="color:#B26873"><b>	ATHLETICS	</b></span> - Forcefully open a door, window, or container	</td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	GRAPPLE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Attack	</td></table></td><td class="td2"><span style="color:#B26873"><b>	ATHLETICS vs FORTITUDE	</b></span> - Grab an opponent with your free hand.</td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	SHOVE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Attack	</td></table></td><td class="td1"><span style="color:#B26873"><b>	ATHLETICS vs FORTITUDE	</b></span> - Push an opponent 5<span style="color:dimgray">(10)</span> feet away from you. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	TRIP	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Attack	</td></table></td><td class="td2"><span style="color:#B26873"><b>	ATHLETICS vs REFLEX	</b></span> - Knock an opponent prone. <span style="color:dimgray">(Crit: 1d6 damage)</span> </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	DISARM	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Attack	</td></table></td><td class="td1"><span style="color:#B26873"><b>	ATHLETICS VS REFLEX (TRAINED) </b></span> - Knock something out of an opponent’s grasp.<br>Until the start of its turn, the target gets a -2 circ. penalty on checks using the object,<br>and attempts to Disarm the target gain a +2 circ. bonus. <span style="color:dimgray">(Crit: target drops the item.)</span> </td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	MAGICAL ACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	CAST A SPELL <span style="color:dimgray">(usually)</span>	</b> <img src="2action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits3"><td>	Variable	</td></table></td><td class="td1"> Cast a spell you have prepared or in your repertoire.<br> <span style="background-color:#5D0100;color:white">MANIPULATE</span> for Material, Somatic or Focus components.<br> <span style="background-color:#B26873;color:white">CONCENTRATE</span> for Verbal components </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	DISMISS	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td2"> End one spell or item effect. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	SUSTAIN	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td1"> Extend one spell or item effect until the end of your next turn. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	RECOGNIZE SPELL	</b> <img src="reaction.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>		</td></table></td><td class="td2"><span style="color:#B26873"><b>	*TRADITON	</b></span><span style="color:#5D0100"><b>(FEAT)</b></span> - Identify a spell being cast within line of sight. </td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	DEFENSIVE ACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:200px"> <b>	AVERT GAZE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1" style="width:80px"><table id="traits2"><td>		</td></table></td><td class="td1"> Get a +2 circumstance bonus against visual abilities. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	RAISE A SHIELD	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>		</td></table></td><td class="td2"> Put up a shield to get its bonus to AC (+2 AC for most shields). </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	TAKE COVER	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>		</td></table></td><td class="td1"> Gain cover +2, or get greater cover +4 if you have cover. </td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	MORE CONFLICT FOCUSED ACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	DELAY	</b> <img src="free_action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>		</td></table></td><td class="td1"> Delay the start of your turn; take your turn later. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	READY	</b> <img src="2action.png" style="width:25px;vertical-align: middle;"> + <img src="reaction.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td2"> Prepare to take a single/free action as a reaction with a given trigger. <span style="color:dimgray">(save MAP)</span> </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	CREATE A DIVERSION	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits3"><td>	Variable	</td></table></td><td class="td1"><span style="color:#B26873"><b>	DECEPTION	</b></span> - Use a diversion to temporarily become hidden. <span style="color:dimgray">(targets wise up)</span><br> <span style="background-color:#5D0100;color:white">MANIPULATE</span> for a gesture or trick. <br><span style="background-color:#5D0100;color:white">AUDITORY</span> & <span style="background-color:#5D0100;color:white">LINGUISTIC</span> for distracting words. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	FEINT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>		</td></table></td><td class="td2"><span style="color:#B26873"><b>	DECEPTION (TRAINED)	</b></span> - Leave an opponent flat-footed to your attack. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	BON MOT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	DIPLOMACY VS WILL	</b></span><span style="color:#5D0100"><b>(FEAT)</b></span> - Distract a foe with a witty quip.<br> Target takes a -2<span style="color:dimgray">(-3)</span> status penalty to Perception and Will saves for 1 minute. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	DEMORALIZE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	INTIMIDATION vs WILL	</b></span> - Shake an enemy’s resolve. <span style="color:dimgray">(10 minutes CD on target)</span><br>Target becomes Frightened 1<span style="color:dimgray">(2)</span> = -1<span style="color:dimgray">(-2)</span> status penalty on checks and DCs.</td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	CLOAK AND DAGGER INTERACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	POINT OUT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1">Indicate the location of a creature to your allies. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	CREATE A DIVERSION	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits3"><td>	Variable	</td></table></td><td class="td2"><span style="color:#B26873"><b>	DECEPTION	</b></span> - Use a diversion to temporarily become hidden. <span style="color:dimgray">(targets wise up)</span><br> <span style="background-color:#5D0100;color:white">MANIPULATE</span> for a gesture or trick. <br><span style="background-color:#5D0100;color:white">AUDITORY</span> & <span style="background-color:#5D0100;color:white">LINGUISTIC</span> for distracting words. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	LIE	</b> <img src="3action.png" style="width:25px;vertical-align: middle;">+</td><td class="td1"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	DECEPTION (SECRET)</b></span> - Fool someone with an untruth. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	SENSE MOTIVE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	PERCEPTION (SECRET)</b></span> - Detect abnormal behavior and true intent. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	SEEK	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	PERCEPTION (SECRET)</b></span> - Scan an area for signs of creatures or objects. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	HIDE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>		</td></table></td><td class="td2"><span style="color:#B26873"><b>	STEALTH (SECRET)</b></span> - Use cover or concealment to become hidden. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	SNEAK	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1"><span style="color:#B26873"><b>	STEALTH (SECRET)	</b></span> - Move while being undetected. (5' per 10' speed) </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	CONCEAL AN OBJECT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	STEALTH (SECRET)</b></span>  - Hide an object of light bulk. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	PALM AN OBJECT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	 THIEVERY (SECRET)</b></span> - Palm an unattended object of negligible bulk. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	STEAL	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	 THIEVERY (SECRET)</b></span> - Steal an object of negligible bulk from a creature. </td></tr>
+									 </table>
+
+									</div>
+
+									<div style="width: 50%; display: inline-block">
+
+										<table class="tabla2">
+										 <tr><th class="td3" colspan="3">	MOVEMENT ACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	STRIDE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1">Move up to your Speed. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	STEP	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2">Move 5 feet without triggering reactions. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	LEAP	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1">Jump horizontally 10 feet (if speed is 15+) or up to 15 feet (if speed is 30+).<br> Jump horizontally 10 feet (if speed is 15+) or up to 15 feet (if speed is 30+). </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	DROP PRONE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2">Fall prone. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	CRAWL	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1">Move 5 feet while prone </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	STAND	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2">Stand up from prone. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	MOUNT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1">Get on an allied animal bigger than you to ride it. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	GRAB AN EDGE	</b> <img src="reaction.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	REFLEX vs CLIMB DC	</b></span> - Catch something to stop a fall. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	ARREST A FALL	</b> <img src="reaction.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>		</td></table></td><td class="td1"><span style="color:#B26873"><b>	ACROBATICS vs DC 15	</b></span> - Slow your fall while flying. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	BALANCE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2"><span style="color:#B26873"><b>	ACROBATICS	</b></span> - Move across a narrow surface or uneven ground. <span style="color:dimgray">(crit: full speed)</span> </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	TUMBLE THROUGH	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1"><span style="color:#B26873"><b>	ACROBATICS vs REFLEX	</b></span> - Move through the space of one enemy. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	MANEUVER IN FLIGHT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2"><span style="color:#B26873"><b>	ACROBATICS (TRAINED)	</b></span> - Perform a difficult maneuver while flying. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	CLIMB	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1"><span style="color:#B26873"><b>	ATHLETICS	</b></span> - Move up, down, or across an incline. (5' per 20' speed; +5' on crit) </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	HIGH JUMP	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2"><span style="color:#B26873"><b>	ATHLETICS vs DC 30	</b></span> - Stride 10+ feet and then jump vertically 5 feet<br> <span style="color:dimgray">(Crit: vertically 8 feet, or vertically 5 feet and horizontally 10 feet)</span> </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	LONG JUMP	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1"><span style="color:#B26873"><b>	ATHLETICS vs DISTANCE IN FEET	</b></span> - Stride 10+ feet and then jump the distance </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	SWIM	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Move	</td></table></td><td class="td2"><span style="color:#B26873"><b>	ATHLETICS	</b></span> - Propel yourself through water. (5'+ 5' per 20' speed; +5' on crit) </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	SNEAK	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Move	</td></table></td><td class="td1"><span style="color:#B26873"><b>	STEALTH (SECRET)	</b></span>  - Move while being undetected. (5' per 10' speed) </td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	OBJECT INTERACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	ACTIVATE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"> + or <img src="reaction.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits3"><td>	Variable	</td></table></td><td class="td1">Call forth the effect of an item by properly activating it<br> <span style="background-color:#5D0100;color:white">MANIPULATE</span> for Interact activations.<br> <span style="background-color:#5D0100;color:white">CONCENTRATE</span> for Command or Envision activations. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	TRICK MAGIC ITEM	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	*TRADITON	</b></span><span style="color:#5D0100"><b>(FEAT)</b></span> - Temporarily grants you the ability to use the item. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	INVEST AN ITEM	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"> + </td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1">You invest your energy in an item to benefit from its constant magical <br> abilities. You can invest no more than 10 items per day. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	INTERACT	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2">Grab an object, open a door, draw an item, or do a similar action. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	RELEASE	</b> <img src="free_action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1">Release something you’re holding without triggering reactions. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	DISABLE DEVICE	</b> <img src="2action.png" style="width:25px;vertical-align: middle;"> + </td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	THIEVERY (TRAINED)	</b></span> - Disarm a trap or another complex device </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	PICK A LOCK	</b> <img src="2action.png" style="width:25px;vertical-align: middle;"> + </td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	THIEVERY (TRAINED)	</b></span> - Open a lock without a key. </td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	MEDICAL ACTIVITIES	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	FIRST AID	</b> <img src="2action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	MEDICINE	</b></span> - Perform first aid on a dying or bleeding creature.<br><span style="color:#B26873"><b>	RECOVERY DC + 5	</b></span>(usually 15 + dying condition); or <span style="color:#B26873"><b>BLEED DC.</b></span> </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	TREAT POISON	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	MEDICINE (TRAINED)	</b></span> - Grants a +2<span style="color:dimgray">(+4)</span> circ. bonus to the next save vs poison. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	BATTLE MEDICINE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	MEDICINE	</b></span><span style="color:#5D0100"><b>(FEAT)</b></span> - Quickly heal in combat. <span style="color:dimgray">(24 hours CD on target)</span><br> <span style="color:#B26873"><b>	DC 15	</b></span> : 2d8<span style="color:dimgray">(4d8)</span> HP. (<span style="color:#B26873"><b>E-DC 20</b></span> : +10 HP; <span style="color:#B26873"><b>M-DC</b></span> 30 : +30 HP; <span style="color:#B26873"><b>L-DC</b></span> 40 : +50 HP) </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	TREAT WOUND	<span style="color:dimgray;margin-left:15px;"> 10 MIN </span></b> </td><td class="td2"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	MEDICINE (TRAINED)	</b></span>  - Heal one injured living creature. <span style="color:dimgray">(1 hour CD on target)</span> </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	TREAT DISEASE	<span style="color:dimgray;margin-left:8px;"> 8 HOURS </span></b> </td><td class="td1"><table id="traits2"><td>	Manipulate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	MEDICINE (TRAINED)	</b></span>  - Grants a +2<span style="color:dimgray">(+4)</span> circ. bonus to the next save vs disease. </td></tr>
+									 </table>
+
+									 <table class="tabla2">
+										 <tr><th class="td3" colspan="3">	OTHER ACTIONS	</th></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	AID	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"> + <img src="reaction.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>		</td></table></td><td class="td1"><span style="color:#B26873"><b>	DC 20	</b></span> check to grant a +1 circ. bonus. <span style="color:dimgray">(Crit: +2; Master: +3; Legend: +4)</span> </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	RECALL KNOWLEDGE	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	(SECRET)	</b></span> - Remember a bit of knowledge about the subject. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	REQUEST	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	DIPLOMACY 	</b></span> - Make a request of a friendly or helpful creature. </td></tr>
+										 <tr><td class="td2" style="width:180px"> <b>	<span style="font-size:11px"> COMMAND AN ANIMAL </span>	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td2"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td2"><span style="color:#B26873"><b>	NATURE	</b></span> - Issue an order to an animal. </td></tr>
+										 <tr><td class="td1" style="width:180px"> <b>	PERFORM	</b> <img src="1action.png" style="width:25px;vertical-align: middle;"></td><td class="td1"><table id="traits2"><td>	Concentrate	</td></table></td><td class="td1"><span style="color:#B26873"><b>	PERFORMANCE	</b></span> - Make a brief performance (song, dance, joke). </td></tr>
+									 </table>
+
+									</div>
+								</div>
+
+<!-- Activities -->
+
+								<div id="Part5" class="tabcontent">
+									<div>
+										<table class="tabla2">
+											<tr><th class="td3">COMMON EXPLORATION ACTIVITIES</th></tr>
+
+										</table>
+									</div>
+								</div>
 
 				<div class="hojavertical">
 					<header>Variant Rules</header>
