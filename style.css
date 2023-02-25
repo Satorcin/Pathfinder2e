@@ -119,13 +119,13 @@ h1 {
   border: 3px solid #8F222E;
 }
 
-.td1 {
+.tablacentral .td1 {
   text-align: center;
   border: 2px solid #8F222E;
   background-color: #C9AD6A;
 }
 
-.td2 {
+.tablacentral .td2 {
   text-align: center;
   border: 2px solid #8F222E;
   background-color: #E8DFC0;
@@ -133,12 +133,67 @@ h1 {
   padding-right: 15px;
 }
 
-.td3 {
+.tablacentral .td3 {
   text-align: center;
   border: 2px solid #8F222E;
   background-color: #522E2C;
   color: #CBC18F;
   padding: 10px;
+}
+
+.tabla2 {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  font-size: 12px;
+  display: inline-block;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+
+.tabla2 .td1 {
+  text-align: left;
+  background-color: #C9AD6A;
+  padding-left: 8px;
+}
+
+.tabla2 .td2 {
+  text-align: left;
+  background-color: #F1F3F4;
+  padding-left: 8px;
+}
+
+.tabla2 .td3 {
+  text-align: left;
+  background-color: #5D0100;
+  color: white;
+  padding-left: 8px;
+  min-width: 770px;
+}
+
+#traits2 {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: #522E2C;
+  color: white;
+}
+
+#traits2 td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#traits3 {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: #B26873;
+  color: white;
+}
+
+#traits3 td {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 div.feats {
@@ -177,4 +232,8 @@ hr {
   border-width:0;
   background-color:gray;
   margin-bottom: 15px;
+}
+
+.salmon {
+  color:#B26873:
 }
