@@ -26,6 +26,7 @@
 				  <button class="tablinks" onclick="tab(event, 'Part3')">Material Statistics</button>
 					<button class="tablinks" onclick="tab(event, 'Part4')">Action</button>
 					<button class="tablinks" onclick="tab(event, 'Part5')">Activities</button>
+					<button class="tablinks" onclick="tab(event, 'Part6')">Encounter Managment</button>
 					<button class="tablinks" onclick="tab(event, 'reset')" style="position: absolute;left: 1512px;border-radius: 0px 20px 0px 0px;"> &nbsp </button>
 				</div>
 
@@ -282,6 +283,40 @@
 										</table>
 									</div>
 								</div>
+
+<!-- Encounter Managment -->
+
+				<div id="Part6" class="tabcontent">
+					<div style="float: left; margin-left:100px;margin-top:50px;">
+						<header style="font-size:30px">Encounter Budget</header>
+						<table class="tablacentral">
+							<tr><th class="td3">Threat</th><th class="td3">XP Budget</th><th class="td3">Character Adjustment</th></tr>
+							<tr><td class="td1">Trivial</td><td class="td1">40 or less</td><td class="td1">10 or less</td></tr>
+							<tr><td class="td2">Low</td><td class="td2">60</td><td class="td2">15</td></tr>
+							<tr><td class="td1">Moderate</td><td class="td1">80</td><td class="td1">20</td></tr>
+							<tr><td class="td2">Severe</td><td class="td2">120</td><td class="td2">30</td></tr>
+							<tr><td class="td1">Extreme</td><td class="td1">160</td><td class="td1">40</td></tr>
+						</table>
+					</div>
+
+					<div style="margin-left:600px">
+						<header style="font-size:30px">Creature XP and Role</header>
+						<table class="tablacentral">
+							<tr><th class="td3">Creature level</th><th class="td3">XP</th><th class="td3">Suggested Role</th></tr>
+							<tr><td class="td1">Party level -4</td><td class="td1">10</td><td class="td1">Low-threat lackey</td></tr>
+							<tr><td class="td2">Party level -3</td><td class="td2">15</td><td class="td2">Low- or moderate-threat lackey</td></tr>
+							<tr><td class="td1">Party level -2</td><td class="td1">20</td><td class="td1">Any lackey or standard creature</td></tr>
+							<tr><td class="td2">Party level -1</td><td class="td2">30</td><td class="td2">Any standard creature</td></tr>
+							<tr><td class="td1">Party level </td><td class="td1">40</td><td class="td1">Any standard creature or low-threat boss</td></tr>
+							<tr><td class="td2">Party level +1</td><td class="td2">60</td><td class="td2">Low- or moderate-threat boss</td></tr>
+							<tr><td class="td1">Party level +2</td><td class="td1">80</td><td class="td1">Moderate- or severe-threat boss</td></tr>
+							<tr><td class="td2">Party level +3</td><td class="td2">120</td><td class="td2">Severe- or extreme-threat boss</td></tr>
+							<tr><td class="td1">Party level +4</td><td class="td1">160</td><td class="td1">Extreme-threat solo boss</td></tr>
+						</table>
+					</div>
+				</div>
+
+<!-- Variant Rules -->
 
 				<div class="hojavertical">
 					<header>Variant Rules</header>
