@@ -244,3 +244,52 @@ hr {
 .salmon {
   color:#B26873:
 }
+
+/* ESTILOS DE LA WEB "ITEMS" */
+
+.hojahorizontal {
+  max-width: 1600px;
+  height: 1300px;
+  background-color: #E8DFC0;
+  margin: 50px auto;
+  display: block;
+  position: relative;
+  padding: 30px;
+  border-radius: 25px 25px 25px 25px;
+  border-color: #D2691E;
+  border-width: 10px 10px 0px 10px;
+  border-style: solid;
+  page-break-before: always;
+  counter-increment: page;
+}
+
+.tablacentral2 {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 3px solid #8F222E;
+}
+
+.tablacentral2 td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tablacentral2 .td1 {
+  text-align: center;
+  border: 2px solid #8F222E;
+  background-color: #C9AD6A;
+}
+
+.tablacentral2 .td2 {
+  text-align: center;
+  border: 2px solid #8F222E;
+  background-color: #E8DFC0;
+}
+
+.tablacentral2 .td3 {
+  text-align: center;
+  border: 2px solid #8F222E;
+  background-color: #522E2C;
+  color: #CBC18F;
+}
