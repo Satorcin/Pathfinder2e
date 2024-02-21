@@ -27,6 +27,16 @@ Tabla Vacía de ejemplo
 		<meta http-equiv="expires" content="0">
 		<script type="text/javascript" src="myscripts.js"></script>
 	</head>
+	<style>
+		body {
+			/*background: linear-gradient(to right, #6814cd 0%, #3163f3 100%);*/
+			background-image: url(Treasure_Vault.png);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			font: normal 18px/1.5 Helvetica, sans-serif;
+		}
+	</style>
 		<body>
 
 			<button onclick="Hide()">Hide pages</button>
@@ -35,7 +45,7 @@ Tabla Vacía de ejemplo
 
 				<div class="hojahorizontal">
 
-					<header>Recomended Items</header>
+					<header>Consumables</header>
           <br>
           <h1>Alchemist Items</h1>
           <br>
@@ -51,7 +61,6 @@ Tabla Vacía de ejemplo
 
 				<div class="hojahorizontal">
 					<header>Accesories</header>
-					<br>
           <h1>Accesories that increases skills</h1>
           <br>
 					<table><th>☼ =► Uncommon</th></table>
@@ -59,33 +68,41 @@ Tabla Vacía de ejemplo
           <table class="tablacentral2">
             <tr><th class="td3">Name</th><th class="td3">Skill Increase</th><th class="td3">Level</th><th class="td3">Price</th><th class="td3">Link</th></tr>
             <tr><th class="td3" colspan="5">ACROBATICS</th>
+
               <tr><td class="td1">Braceles of Dashing</td><td class="td1">+1</td><td class="td1">3</td><td class="td1">58 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=415">HERE</a></td></tr>
               <tr><td class="td2">Boots of Elvenkind</td><td class="td2">+1 , +2</td><td class="td2">5 , 11</td><td class="td2">145 , 1250 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=413">HERE</a></td></tr>
               <tr><td class="td1">Daredevil Boots</td><td class="td1">+2 , +3</td><td class="td1">10 , 17</td><td class="td1">900 , 14000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=429">HERE</a></td></tr>
               <tr><td class="td2">Anklets of Alacrity</td><td class="td2">+3</td><td class="td2">17</td><td class="td2">15000 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=397">HERE</a></td></tr>
 							<tr><td class="td1">Mercurial Mantle</td><td class="td1">+3</td><td class="td1">18</td><td class="td1">24000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=1067">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">ARCANA</th>
+
               <tr><td class="td1">Hat of the Magi</td><td class="td1">+1 , +2</td><td class="td1">3 , 9</td><td class="td1">50 , 650 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=443">HERE</a></td></tr>
               <tr><td class="td2">Ring of Wizardry ☼</td><td class="td2">+1 , +2</td><td class="td2">7 , 10 , 12 , 14</td><td class="td2">360 , 1000 , 2000 , 4500 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=462">HERE</a></td></tr>
               <tr><td class="td1">Specialist Ring</td><td class="td1">+2</td><td class="td1">10</td><td class="td1">1000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=1077">HERE</a></td></tr>
               <tr><td class="td2">Master Magus Ring</td><td class="td2">+2</td><td class="td2">11</td><td class="td2">1250 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=2327">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">ATHLETICS</th>
+
               <tr><td class="td1">Lifting Belt</td><td class="td1">+1</td><td class="td1">4</td><td class="td1">80 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=447">HERE</a></td></tr>
               <tr><td class="td2">Armbands of Athleticism</td><td class="td2">+2 , +3</td><td class="td2">9 , 17</td><td class="td2">645 , 13000 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=409">HERE</a></td></tr>
               <tr><td class="td1">Avalanche Boots</td><td class="td1">+3</td><td class="td1">17</td><td class="td1">15000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=2135">HERE</a></td></tr>
               <tr><td class="td2">Belt of Giant Strength</td><td class="td2">+3</td><td class="td2">17</td><td class="td2">15000 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=398">HERE</a></td></tr>
 							<tr><td class="td1">Titan's Grasp</td><td class="td1">+3</td><td class="td1">18</td><td class="td1">24000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=1082">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">CRAFTING</th>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
+              <tr><td class="td1">Crafter's Eyepiece</td><td class="td1">+1 , +2</td><td class="td1">3 , 11</td><td class="td1">60 , 1200 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=427">HERE</a></td></tr>
+              <tr><td class="td2">Artificer Spectacles</td><td class="td2">+3</td><td class="td2">17</td><td class="td2">15000 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=2134">HERE</a></td></tr>
+              <tr><td class="td1">Inexplicable Apparatus</td><td class="td1">+3</td><td class="td1">18</td><td class="td1">19000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=445">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">CRAFTING (ALCHEMY)</th>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
+              <tr><td class="td1">Alchemist Goggles</td><td class="td1">+1 , +2 , +3</td><td class="td1">4 , 11 , 17</td><td class="td1">100 , 1400 , 15000 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=408">HERE</a></td></tr>
+              <tr><td class="td2">Alchemist's Haversack</td><td class="td2">+2</td><td class="td2">11</td><td class="td2">1400 gp</td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=2305">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">DECEPTION</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
@@ -98,41 +115,56 @@ Tabla Vacía de ejemplo
           <table class="tablacentral2">
             <tr><th class="td3">Name</th><th class="td3">Skill Increase</th><th class="td3">Level</th><th class="td3">Price</th><th class="td3">Link</th></tr>
             <tr><th class="td3" colspan="5">DIPLOMACY</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">INTIMIDATION</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">MEDICINE</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">NATURE</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">OCCULTISM</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">PERFORMANCE</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">RELIGION</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
             <tr><th class="td3" colspan="5">SOCIETY</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
@@ -145,29 +177,37 @@ Tabla Vacía de ejemplo
           <table class="tablacentral2">
             <tr><th class="td3">Name</th><th class="td3">Skill Increase</th><th class="td3">Level</th><th class="td3">Price</th><th class="td3">Link</th></tr>
             <tr><th class="td3" colspan="5">STEALTH</th>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-            <tr><th class="td3" colspan="5">SURVIVAL</th>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-            <tr><th class="td3" colspan="5">THIEVERY</th>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
-            <tr><th class="td3" colspan="5">PERCEPTION</th>
+
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
               <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
 
+            <tr><th class="td3" colspan="5">SURVIVAL</th>
+
+              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
+            <tr><th class="td3" colspan="5">THIEVERY</th>
+
+              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+
+            <tr><th class="td3" colspan="5">PERCEPTION</th>
+
+              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"></td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
+              <tr><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"></td><td class="td2"><a href="https://2e.aonprd.com/Equipment.aspx?ID=">HERE</a></td></tr>
 
             <tr><th class="td3" colspan="5">SPECIALS</th>
+
             <tr><td class="td1">Eidolon Cape</td><td class="td1">+2</td><td class="td1">11</td><td class="td1">1400 gp</td><td class="td1"><a href="https://2e.aonprd.com/Equipment.aspx?ID=2323">HERE</a></td></tr>
+
           </table>
 
           <h1>Other Accesories</h1>

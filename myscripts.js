@@ -68,4 +68,13 @@ function Hide() {
     } else {
         y.style.display = "none";
     }
+
+    var container = document.getElementsByClassName("hojahorizontal");
+    for(let i = 0; i<container.length;i++){
+      if (container[i].style.display === "none") {
+          container[i].style.display = "block";
+      } else {
+          container[i].style.display = "none";
+        }
+    }
 };
