@@ -270,7 +270,7 @@ div.hojahorizontal:after {
   border: 3px solid #8F222E;
 }
 
-.tablacentral2 td {
+.tablacentral2 td,th {
   padding-left: 10px;
   padding-right: 10px;
 }
