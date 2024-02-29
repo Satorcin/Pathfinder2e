@@ -319,3 +319,8 @@ div.hojahorizontal2:after {
   background-color: #522E2C;
   color: #CBC18F;
 }
+
+.action1 {
+  width:25px;
+  vertical-align: middle;
+}
