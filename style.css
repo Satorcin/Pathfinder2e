@@ -69,6 +69,20 @@
   counter-increment: page;
 }
 
+.bloque {
+  background-color: #C9AD6A;
+  margin: 50px auto;
+  display: block;
+  position: relative;
+  padding: 30px;
+  border-radius: 25px 25px 25px 25px;
+  border-color: #AE3133;
+  border-width: 10px 10px 0px 10px;
+  border-style: solid;
+  page-break-before: always;
+  counter-increment: page;
+}
+
 div.hojavertical:after {
      content: " PAGE - " counter(page);
      position: absolute;
@@ -87,7 +101,8 @@ div.hojavertical:after {
   font-size: 60px;
   color: #8F222E;
   text-shadow: 2px 2px 3px black;
-  height: 50px;}
+  height: 50px;
+}
 
 header {
   margin-top: 10px;
@@ -96,7 +111,8 @@ header {
   font-size: 40px;
   color: #8F222E;
   text-shadow: 2px 2px 3px black;
-  height: 50px;}
+  height: 50px;
+}
 
 h1 {
   margin-top: 10px;
@@ -104,6 +120,15 @@ h1 {
   font-size: 30px;
   color: orange;
   text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  color: #CD7F32;
+  text-shadow: 2px 2px 2px black;
+  text-decoration: underline;
 }
 
 
