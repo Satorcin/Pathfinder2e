@@ -166,7 +166,7 @@ h2 {
   border-collapse: collapse;
   font-size: 12px;
   display: inline-block;
-  /*font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;*/
+  /* font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif; */
 }
 
 .tabla2 .td1 {
@@ -342,6 +342,7 @@ div.hojahorizontal2:after {
   border: 2px solid #8F222E;
   background-color: #522E2C;
   color: #CBC18F;
+
 }
 
 .action1 {
