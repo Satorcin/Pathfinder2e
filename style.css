@@ -89,7 +89,6 @@ div.hojavertical:after {
      bottom: 0px;
      right: 15px;
      padding: 2px 12px;
-     border-right: 2px solid #23b8e7;
      font-size: 12px;
 }
 
@@ -299,7 +298,6 @@ div.hojahorizontal:after {
      bottom: 0px;
      right: 15px;
      padding: 2px 12px;
-     border-right: 2px solid #23b8e7;
      font-size: 12px;
 }
 
@@ -309,7 +307,6 @@ div.hojahorizontal2:after {
      bottom: 0px;
      right: 15px;
      padding: 2px 12px;
-     border-right: 2px solid #23b8e7;
      font-size: 12px;
 }
 
